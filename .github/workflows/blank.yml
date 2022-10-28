@@ -18,7 +18,7 @@ jobs:
       run: Expand-Archive ngrok.zip
 
     - name: Connecting ngrok Account
-      run: .\ngrok\ngrok.exe authtoken $Env:2GkSBTnNm6wT4KxxqgQpiz5jZwj_4XoTPcBG9jvX8S84YS2de
+      run: .\ngrok\ngrok.exe authtoken $Env:2Gke3leeuFiLREYAMHJbm4goKpP_73oPdHh4mKL8GWAXJA3aD
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
 
